@@ -3,12 +3,67 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
-body {
-	padding-top: 54px;
+html {
+	height: 100%;
 }
 
-@media ( min-width : 992px) {
+body {
+	padding-top:70px;/*Required padding for .navbar-fixed-top. Remove*/
+	height: 100%;
+}
+.slide-image{
+	width:100%;
+}
+.carousel-holder{
+	margin-bottom:30px;
+}
+.carousel-control,
+.item{
+	border-radius:4px;
+}
+.caption{
+	height:130px;
+	overflow:hidden;
+}
+.thumbnail img{
+	width:100%;
+}
+.ratings{
+	padding-right:10px;
+	padding-left:10px;
+	color:#d17581;
+}
+.thumbnail{
+	padding:0;
+}
+.thumbnail .caption-full{
+	padding:9px;
+	color:#333;
+}
+footer{
+	margin:0;
+}
+/*
+@media ( min-width : 992px) { 
 	body {
 		padding-top: 56px;
 	}
+}
+
+*/
+/*
+custom styling
+*/
+.wrapper{
+	min-height:100%;
+	position:relative;
+}
+
+.content{
+	padding-bottom: 60px;  /* height of the footer*/
+}
+.footer{
+	position:absolute;
+	bottom:15px;
+	height:60px;
 }
